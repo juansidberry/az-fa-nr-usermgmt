@@ -4,3 +4,6 @@ import json
 import logging
 
 app = func.FunctionApp()
+
+for attr in dir(app):
+    print(attr)
