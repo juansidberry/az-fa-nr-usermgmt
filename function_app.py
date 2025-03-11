@@ -2,7 +2,6 @@ from azure.identity import DefaultAzureCredential
 # from azure.keyvault.secrets import SecretClient
 import azure.functions as func
 import os
-# import datetime
 import json
 import logging
 import requests
